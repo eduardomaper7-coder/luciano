@@ -2,29 +2,33 @@ import { Link } from 'react-router-dom'
 
 const services = [
   {
-    title: 'Fundas de porcelana y zirconio',
+    title: 'Tecnología TAC Dental',
     description:
-      'Tratamientos estéticos y funcionales para restaurar dientes dañados, reforzar su estructura y recuperar una sonrisa natural.',
-    image: '/funda-porcelana-siliconio-usera.jpg',
+      'Diagnósticos 3D de alta precisión para planificar tratamientos con mayor seguridad, exactitud y mejores resultados.',
+    image:
+      'https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=800&q=80',
   },
   {
-    title: 'Tratamiento periodontal',
+    title: 'Ortodoncia e Invisalign',
     description:
-      'Cuidamos la salud de tus encías con diagnósticos precisos y tratamientos especializados para prevenir sangrado e inflamación.',
-    image: '/tratamiento-encias-usera.webp',
+      'Corrige la posición dental con alineadores transparentes y planificación digital personalizada para resultados visibles.',
+    image:
+      'https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&w=800&q=80',
   },
   {
-    title: 'Implantes dentales',
+    title: 'Implantes y Prótesis Dentales',
     description:
-      'Recupera piezas dentales perdidas con soluciones seguras, duraderas y diseñadas para devolver funcionalidad y estética.',
-    image: '/implantes-dentales-usera.jpg',
+      'Recupera funcionalidad, comodidad y estética con soluciones duraderas adaptadas a cada paciente.',
+    image:
+      'https://images.unsplash.com/photo-1588776814546-daab30f310ce?auto=format&fit=crop&w=800&q=80',
   },
   {
-    title: 'Endodoncia',
-    description:
-      'Salvamos dientes dañados o infectados mediante tratamientos avanzados que alivian el dolor y evitan extracciones innecesarias.',
-    image: '/endodoncia-usera.png',
-  },
+  title: 'Odontología Integral',
+  description:
+    'Endodoncia, estética dental, periodoncia y revisiones preventivas para cuidar tu sonrisa a largo plazo.',
+  image:
+    'https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=800&q=80',
+},
 ]
 
 const Treatments = () => {
@@ -33,17 +37,17 @@ const Treatments = () => {
       <div className="mx-auto max-w-7xl px-4">
         <div className="mb-16 text-center">
           <span className="text-sm font-bold uppercase tracking-[0.25em] text-blue-600">
-            Tratamientos destacados
+            Todo lo que tu sonrisa necesita
           </span>
 
           <h2 className="mt-3 text-3xl font-extrabold text-blue-800 sm:text-4xl">
-            Servicios dentales en Villaverde
+            Especialidades dentales en Carabanchel
           </h2>
 
           <p className="mx-auto mt-4 max-w-3xl text-lg text-neutral-600 sm:text-xl">
-            En Clínica Dental Ballesteros ofrecemos tratamientos avanzados para
-            cuidar tu salud bucodental con atención personalizada y tecnología
-            de última generación en Villaverde.
+            En Clínica dental Dr Luciano abordamos tu salud bucodental desde una
+            visión integral, combinando experiencia clínica, tecnología avanzada
+            y atención personalizada.
           </p>
         </div>
 
@@ -56,7 +60,7 @@ const Treatments = () => {
               <div className="h-56 w-full sm:h-auto sm:w-[40%]">
                 <img
                   src={service.image}
-                  alt={`${service.title} en Villaverde - Clínica Dental Ballesteros`}
+                  alt={`${service.title} - Clínica dental Dr Luciano`}
                   className="h-full w-full object-cover"
                   loading="lazy"
                 />
@@ -78,7 +82,7 @@ const Treatments = () => {
                     to="/tratamientos"
                     className="inline-flex items-center gap-2 text-base font-semibold text-blue-700 transition hover:text-blue-900"
                   >
-                    Más información →
+                    Saber más →
                   </Link>
                 </div>
               </div>
@@ -86,14 +90,20 @@ const Treatments = () => {
           ))}
         </div>
 
-        <div className="mt-14 text-center">
-          <p className="text-lg font-medium text-neutral-700">
-            ¿Buscas otro tratamiento dental?
+        <div className="mt-16 rounded-2xl bg-white p-8 text-center shadow-lg">
+          <h3 className="text-2xl font-extrabold text-blue-800">
+            Mucho más que tratamientos dentales
+          </h3>
+
+          <p className="mx-auto mt-4 max-w-4xl text-lg text-neutral-600">
+            Más de 30 años de experiencia, tecnología TAC integrada, atención
+            familiar y planificación personalizada para ofrecerte tratamientos
+            más seguros, precisos y predecibles.
           </p>
 
           <Link
             to="/tratamientos"
-            className="mt-5 inline-flex items-center rounded-xl bg-blue-700 px-8 py-4 text-lg font-bold text-white shadow-lg transition hover:bg-blue-800"
+            className="mt-6 inline-flex items-center rounded-xl bg-blue-700 px-8 py-4 text-lg font-bold text-white shadow-lg transition hover:bg-blue-800"
           >
             Ver todos los tratamientos
           </Link>

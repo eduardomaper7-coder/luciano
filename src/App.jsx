@@ -11,6 +11,7 @@ import HowWeWork from './components/HowWeWork'
 import Testimonials from './components/Testimonials'
 import BlogSection from './components/BlogSection'
 import Location from './components/Location'
+import PaymentOptions from './components/PaymentOptions'
 import ContactSection from './components/ContactSection'
 import Footer from './components/Footer'
 import AllTreatments from './components/AllTreatments'
@@ -30,6 +31,7 @@ const Home = () => (
     <FeaturedBox />
     <HowWeWork />
     <Testimonials />
+    <PaymentOptions />
     <BlogSection />
     <Location />
     <ContactSection />

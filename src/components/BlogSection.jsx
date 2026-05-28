@@ -3,27 +3,29 @@ import { Link } from 'react-router-dom'
 const posts = [
   {
     date: '1 abril, 2026',
-    title: 'Implantes dentales en Villaverde, Madrid',
+    title: 'Implantes dentales en Carabanchel, Madrid',
     excerpt:
       'Descubre cómo los implantes dentales pueden ayudarte a recuperar tu sonrisa, mejorar la funcionalidad de tu boca y ganar confianza con un tratamiento duradero.',
     image:
       'https://images.unsplash.com/photo-1629909615184-74f495363b67?auto=format&fit=crop&w=1200&q=80',
+
+    // MISMA RUTA para que siga funcionando
     href: '/blog/implantes-dentales-villaverde',
   },
   {
     date: '1 abril, 2026',
-    title: 'Limpieza dental profesional: por qué es importante hacerla',
+    title: 'Tecnología TAC dental: precisión para tu tratamiento',
     excerpt:
-      'Una limpieza dental ayuda a prevenir problemas de encías, caries y acumulación de sarro.',
+      'Conoce cómo el TAC dental mejora el diagnóstico y permite planificar tratamientos con mayor seguridad y exactitud.',
     image:
       'https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=1200&q=80',
     href: '#',
   },
   {
     date: '25 marzo, 2026',
-    title: 'Blanqueamiento dental: cómo funciona y qué debes saber',
+    title: 'Invisalign: alinea tu sonrisa de forma discreta',
     excerpt:
-      'Todo lo que necesitas saber antes de iniciar un tratamiento de blanqueamiento dental.',
+      'La ortodoncia invisible permite corregir malposiciones dentales con comodidad y sin alterar tu estética diaria.',
     image:
       'https://images.unsplash.com/photo-1598257006626-48b0c252070d?auto=format&fit=crop&w=1200&q=80',
     href: '#',
@@ -40,7 +42,7 @@ const BlogSection = () => {
           </h2>
 
           <p className="mt-4 text-lg text-neutral-600">
-            Artículos y consejos para cuidar tu salud bucodental
+            Consejos y novedades para cuidar tu salud bucodental
           </p>
         </div>
 

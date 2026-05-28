@@ -6,20 +6,27 @@ const BlogImplantes = () => {
         <div className="mx-auto grid max-w-7xl items-center gap-10 px-4 lg:grid-cols-2">
           <div>
             <span className="inline-block rounded-full bg-blue-700 px-4 py-2 text-sm font-bold text-white">
-              Implantología dental
+              Implantología dental avanzada
             </span>
 
             <h1 className="mt-6 text-4xl font-extrabold leading-tight text-blue-900 sm:text-5xl">
-              Implantes dentales en Villaverde, Madrid
+              Implantes dentales en Carabanchel, Madrid
             </h1>
 
             <p className="mt-6 text-xl leading-9 text-neutral-700">
-              La solución definitiva para recuperar tu sonrisa, mejorar la
-              funcionalidad de tu boca y volver a masticar con confianza.
+              Recupera la funcionalidad, estética y confianza de tu sonrisa con
+              una solución fija, segura y duradera diseñada para mejorar tu
+              calidad de vida.
+            </p>
+
+            <p className="mt-5 text-lg leading-8 text-neutral-600">
+              En Clínica dental Dr Luciano planificamos cada tratamiento mediante
+              diagnóstico digital y tecnología TAC para ofrecer resultados
+              precisos y totalmente personalizados.
             </p>
 
             <a
-              href="tel:913766036"
+              href="tel:913623008"
               className="mt-8 inline-flex rounded-xl bg-blue-800 px-8 py-4 font-bold text-white shadow-lg transition hover:bg-blue-900"
             >
               Solicitar valoración
@@ -29,7 +36,7 @@ const BlogImplantes = () => {
           <div className="overflow-hidden rounded-[32px] shadow-[0_20px_60px_rgba(37,99,235,0.18)]">
             <img
               src="https://images.unsplash.com/photo-1629909615184-74f495363b67?auto=format&fit=crop&w=1400&q=80"
-              alt="Implantes dentales en Clínica Dental Ballesteros"
+              alt="Implantes dentales en Clínica dental Dr Luciano"
               className="h-[420px] w-full object-cover"
             />
           </div>
@@ -41,14 +48,22 @@ const BlogImplantes = () => {
         <div className="mx-auto max-w-4xl px-4">
           <div className="rounded-3xl bg-white p-8 shadow-[0_12px_40px_rgba(37,99,235,0.10)] sm:p-10">
             <p className="text-lg leading-9 text-neutral-700">
-              Perder una pieza dental no solo afecta a la estética de la sonrisa,
-              sino también a funciones esenciales como masticar, hablar
-              correctamente y mantener una buena salud bucodental.
+              La pérdida de una pieza dental no solo afecta a la estética de la
+              sonrisa. También puede alterar la mordida, dificultar la
+              masticación, afectar al habla e incluso provocar desplazamientos
+              dentales y pérdida progresiva de hueso.
             </p>
 
             <p className="mt-5 text-lg leading-9 text-neutral-700">
-              Los implantes dentales son la solución más eficaz, duradera y
-              estética para reemplazar dientes perdidos.
+              Los implantes dentales son actualmente la alternativa más eficaz
+              para reemplazar dientes perdidos, ya que restauran tanto la
+              funcionalidad como la apariencia natural de la boca.
+            </p>
+
+            <p className="mt-5 text-lg leading-9 text-neutral-700">
+              Gracias a la planificación digital y a la tecnología diagnóstica
+              avanzada, podemos ofrecer tratamientos predecibles, seguros y
+              adaptados a cada paciente.
             </p>
           </div>
         </div>
@@ -61,13 +76,18 @@ const BlogImplantes = () => {
             Ventajas de los implantes dentales
           </h2>
 
+          <p className="mx-auto mt-5 max-w-3xl text-center text-lg text-neutral-600">
+            Una solución duradera que mejora tu salud oral y te permite volver a
+            sonreír con total tranquilidad.
+          </p>
+
           <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {[
               'Recuperan la funcionalidad completa',
               'Resultado estético natural',
               'Preservan el hueso dental',
-              'Mayor comodidad',
-              'Durabilidad',
+              'Mayor comodidad frente a prótesis removibles',
+              'Alta durabilidad',
               'Recuperas confianza al sonreír',
             ].map((item, index) => (
               <div
@@ -91,15 +111,15 @@ const BlogImplantes = () => {
       <section className="py-16">
         <div className="mx-auto max-w-5xl px-4">
           <h2 className="text-center text-3xl font-extrabold text-blue-900">
-            ¿Cómo es el proceso?
+            ¿Cómo es el tratamiento?
           </h2>
 
           <div className="mt-12 space-y-6">
             {[
-              ['1', 'Diagnóstico digital'],
-              ['2', 'Colocación del implante'],
-              ['3', 'Osteointegración'],
-              ['4', 'Corona definitiva'],
+              ['1', 'Estudio y diagnóstico digital'],
+              ['2', 'Planificación personalizada'],
+              ['3', 'Colocación del implante'],
+              ['4', 'Colocación de la corona definitiva'],
             ].map(([number, title]) => (
               <div
                 key={number}
@@ -118,21 +138,21 @@ const BlogImplantes = () => {
         </div>
       </section>
 
-      {/* Por qué Ballesteros */}
+      {/* Por qué elegirnos */}
       <section className="py-16">
         <div className="mx-auto grid max-w-7xl items-center gap-10 px-4 lg:grid-cols-2">
           <div>
             <h2 className="text-3xl font-extrabold text-blue-900 sm:text-4xl">
-              ¿Por qué elegir Clínica Dental Ballesteros?
+              ¿Por qué elegir Clínica dental Dr Luciano?
             </h2>
 
             <div className="mt-8 space-y-4">
               {[
-                'Tecnología avanzada',
-                'Equipo especializado',
-                'Planificación digital',
-                'Tratamientos personalizados',
-                'Atención cercana en Villaverde',
+                'Tecnología TAC de alta precisión',
+                'Más de 30 años de experiencia clínica',
+                'Planificación digital avanzada',
+                'Tratamientos totalmente personalizados',
+                'Atención cercana en Carabanchel',
               ].map((item) => (
                 <div key={item} className="flex items-center gap-3">
                   <span className="flex h-7 w-7 items-center justify-center rounded-full bg-blue-700 text-sm font-bold text-white">
@@ -147,27 +167,27 @@ const BlogImplantes = () => {
           <div className="overflow-hidden rounded-[28px] shadow-lg">
             <img
               src="https://images.unsplash.com/photo-1588776814546-daab30f310ce?auto=format&fit=crop&w=1400&q=80"
-              alt="Equipo profesional Clínica Dental Ballesteros"
+              alt="Equipo profesional Clínica dental Dr Luciano"
               className="h-[380px] w-full object-cover"
             />
           </div>
         </div>
       </section>
 
-      {/* CTA final */}
+      {/* CTA */}
       <section className="bg-blue-900 py-16 text-white">
         <div className="mx-auto max-w-4xl px-4 text-center">
           <h2 className="text-3xl font-extrabold sm:text-4xl">
-            Recupera tu sonrisa con implantes dentales
+            Recupera tu sonrisa con seguridad y confianza
           </h2>
 
           <p className="mx-auto mt-6 max-w-3xl text-lg leading-9 text-white/85">
-            En Clínica Dental Ballesteros te ayudamos a recuperar funcionalidad,
-            estética y confianza.
+            Nuestro equipo te ayudará a recuperar funcionalidad, estética y
+            bienestar mediante un tratamiento implantológico adaptado a ti.
           </p>
 
           <a
-            href="tel:913766036"
+            href="tel:913623008"
             className="mt-8 inline-flex rounded-xl bg-blue-500 px-8 py-4 text-lg font-bold text-white transition hover:bg-blue-400"
           >
             Solicitar primera valoración

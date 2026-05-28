@@ -6,21 +6,20 @@ const Footer = () => {
     <footer className="bg-blue-950 text-white">
       <div className="mx-auto max-w-7xl px-4 py-14">
         <div className="grid gap-12 md:grid-cols-2 md:items-start">
-          
           {/* Info */}
           <div>
             <div className="mb-6 leading-tight">
               <span className="block text-2xl font-extrabold text-white">
                 CLÍNICA DENTAL
               </span>
-              <span className="block text-blue-400 text-lg font-semibold">
-                Ballesteros
+              <span className="text-lg font-semibold text-blue-400 block">
+                Dr Luciano
               </span>
             </div>
 
             <p className="max-w-2xl text-lg leading-relaxed text-white/90">
-              Clínica dental en Villaverde especializada en tratamientos
-              personalizados, odontología avanzada y atención cercana para cuidar
+              Clínica dental en Carabanchel especializada en tratamientos
+              personalizados, tecnología avanzada y atención cercana para cuidar
               tu salud bucodental y mejorar tu sonrisa.
             </p>
 
@@ -34,7 +33,7 @@ const Footer = () => {
               </a>
 
               <a
-                href="https://www.instagram.com/clinica_dental_ballesteros/"
+                href="#"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Instagram"
@@ -59,25 +58,26 @@ const Footer = () => {
 
             <div className="mt-6 space-y-4 text-lg leading-relaxed">
               <p>
-                C. Oxígeno, 4<br />
-                Villaverde, Madrid
+                Avd. de los Poblados, 131
+                <br />
+                Carabanchel, Madrid
               </p>
 
               <p>
                 <a
-                  href="tel:913766036"
+                  href="tel:913623008"
                   className="whitespace-nowrap font-bold text-white transition hover:text-blue-400"
                 >
-                  913 76 60 36
+                  913 62 30 08
                 </a>
               </p>
 
               <p>
                 <a
-                  href="https://wa.me/34638710792"
+                  href="https://wa.me/34622910567"
                   className="text-blue-400 transition hover:text-white"
                 >
-                  WhatsApp: +34 638 710 792
+                  WhatsApp: +34 622 91 05 67
                 </a>
               </p>
             </div>
@@ -101,7 +101,7 @@ const Footer = () => {
         {/* Footer bottom */}
         <div className="mt-12 border-t border-white/15 pt-8 text-center">
           <p className="text-base text-white/80">
-            © 2026 Clínica Dental Ballesteros. Todos los derechos reservados.
+            © 2026 Clínica dental Dr Luciano. Todos los derechos reservados.
           </p>
 
           <div className="mt-5 flex flex-wrap items-center justify-center gap-x-6 gap-y-3 text-sm text-blue-400">

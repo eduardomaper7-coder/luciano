@@ -4,14 +4,14 @@ const slides = [
   {
     image:
       'https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=1200&q=80',
-    alt: 'Interior moderno de Clínica Dental Ballesteros en Villaverde',
-    badge: 'Clínica dental en Villaverde con tecnología avanzada',
+    alt: 'Tecnología avanzada en Clínica dental Dr Luciano',
+    badge: 'Tecnología TAC dental para diagnósticos de máxima precisión',
   },
   {
     image:
-      'https://images.unsplash.com/photo-1606811971618-4486d14f3f99?auto=format&fit=crop&w=1200&q=80',
-    alt: 'Tratamiento dental en Clínica Dental Ballesteros',
-    badge: 'Atención personalizada para cuidar tu sonrisa',
+      'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=1200&q=80',
+    alt: 'Atención personalizada en Clínica dental Dr Luciano',
+    badge: 'Atención cercana y tratamientos personalizados en Carabanchel',
   },
 ]
 
@@ -31,7 +31,7 @@ const WhyUs = () => {
       <div className="mx-auto grid max-w-7xl items-center gap-12 px-4 lg:grid-cols-2">
         <div className="relative">
           <span className="absolute -left-10 top-0 hidden rotate-180 text-xs font-bold uppercase tracking-[0.4em] text-blue-700 lg:block [writing-mode:vertical-rl]">
-            Clínica Dental Ballesteros
+            Clínica dental Dr Luciano
           </span>
 
           <div className="max-w-xl">
@@ -40,53 +40,53 @@ const WhyUs = () => {
             </span>
 
             <h2 className="mt-5 text-4xl font-extrabold leading-tight text-blue-800 sm:text-5xl">
-              ¿Por qué elegir Clínica Dental Ballesteros?
+              ¿Por qué elegir Clínica dental Dr Luciano?
             </h2>
 
             <p className="mt-6 text-lg leading-9 text-neutral-700">
-              En Clínica Dental Ballesteros combinamos experiencia, tecnología y
-              cercanía para ofrecerte tratamientos dentales personalizados en
-              Villaverde.
+              Combinamos experiencia clínica, tecnología avanzada y trato cercano
+              para ofrecer tratamientos dentales seguros, precisos y adaptados a
+              cada paciente en Carabanchel.
             </p>
 
             <div className="mt-8 space-y-6">
               <div>
                 <h3 className="text-2xl font-extrabold text-blue-800">
-                  Tecnología avanzada
+                  Tecnología TAC integrada
                 </h3>
                 <p className="mt-2 text-lg text-neutral-600">
-                  Utilizamos equipamiento moderno para diagnósticos precisos y
-                  tratamientos eficaces.
+                  Diagnósticos tridimensionales que permiten planificar cada
+                  tratamiento con mayor exactitud y seguridad.
                 </p>
               </div>
 
               <div>
                 <h3 className="text-2xl font-extrabold text-blue-800">
-                  Atención personalizada
+                  Más de 30 años de experiencia
                 </h3>
                 <p className="mt-2 text-lg text-neutral-600">
-                  Cada paciente recibe un plan de tratamiento adaptado a sus
-                  necesidades.
+                  Trayectoria profesional consolidada para ofrecer criterio
+                  clínico sólido y tratamientos de confianza.
                 </p>
               </div>
 
               <div>
                 <h3 className="text-2xl font-extrabold text-blue-800">
-                  Trato cercano y profesional
+                  Atención familiar y personalizada
                 </h3>
                 <p className="mt-2 text-lg text-neutral-600">
-                  Queremos que te sientas cómodo y acompañado durante todo el
-                  proceso.
+                  Tratamos a niños y adultos con cercanía, adaptando cada plan a
+                  las necesidades reales de cada paciente.
                 </p>
               </div>
 
               <div>
                 <h3 className="text-2xl font-extrabold text-blue-800">
-                  Salud y estética dental
+                  Planificación precisa
                 </h3>
                 <p className="mt-2 text-lg text-neutral-600">
-                  Mejoramos la funcionalidad y estética de tu sonrisa con
-                  tratamientos integrales.
+                  Estudiamos cada caso de forma individual para lograr resultados
+                  funcionales, estéticos y duraderos.
                 </p>
               </div>
             </div>
